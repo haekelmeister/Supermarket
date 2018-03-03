@@ -1,0 +1,1 @@
+This Java project solves the problem given at [CodeKata](http://codekata.com/kata/kata09-back-to-the-checkout/). Main idea is to separate the items in the customers basket from the final price calculation. This give us the posibility to iterate over all scanned item and create later on a (final) receipt (including  discounts).
