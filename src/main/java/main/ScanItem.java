@@ -1,5 +1,9 @@
 package main;
 
+/**
+ * This class represents a scanned item from "the real world".
+ * It doesn't contains the prices resp. the final price because we recalculate it every time afresh.
+ */
 public class ScanItem {
 	private final String SKU;
 	private boolean processed;

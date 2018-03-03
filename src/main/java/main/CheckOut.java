@@ -4,6 +4,10 @@ import java.util.List;
 
 import discount.Discountable;
 
+/**
+ * The main logic of the demo project.
+ * The class is able to scan items and to calculate the final price while applying discounts.
+ */
 public class CheckOut {
 	
 	private final Prices prices;

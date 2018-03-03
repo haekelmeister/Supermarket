@@ -2,7 +2,8 @@ package main;
 import java.util.HashMap;
 
 /**
- * This class knows the current price for each SKU.
+ * This class knows the current price for each SKU (some sort of inner database).
+ * The aim is for each SKU/item to ask for the price.
  */
 public class Prices {
 	private final HashMap<String, Integer> prices = new HashMap<String, Integer>();
